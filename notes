@@ -1,0 +1,154 @@
+
+<Link to="#" onClick={(e)=>{
+                                            e.preventDefault();
+                                            this.addToCart(productData)
+                                        }}>BUY NOW</Link>
+
+                                          <div className="main-container no-sidebar">
+        <div className="container">
+          <div className="main-content">
+            <div className="page-title">
+              <h3>Login/ Register</h3>
+            </div>
+            <div className="row">
+              <div className="col-sm-6">
+                <div className="form-checkout">
+                  <h5 className="form-title">Sign In Your Account</h5>
+                  <form className="kt-form"  onSubmit={this.onSubmitLogin}>
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <p>
+                      <input value={this.state.emailLogin} name="emailLogin" type="text" onChange={this.onChange} placeholder="Email"  autoComplete="off" />
+                      <small className="text-danger">{errors.emailLogin}</small>
+                      </p>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-sm-8">
+                      <p>
+                      <input value={this.state.passwordLogin} name="passwordLogin" type="password" onChange={this.onChange} placeholder="Password"  autoComplete="off" />
+                      <small className="text-danger">{errors.passwordLogin}</small>
+                      </p>
+                    </div>
+                  </div>
+                  <button type="submit" className="button btn-primary medium">Sign In</button>
+                </form>
+                </div>
+              </div>
+              <div className="col-sm-6">
+                <div className="form-checkout">
+                  <h5 className="form-title">Register New Account</h5>
+                  <form className="kt-form"  onSubmit={this.onSubmit}>
+                  
+                  <p>
+                      <input value={this.state.name} name="name" type="text" onChange={this.onChange} placeholder="Name"  autoComplete="off" />
+                      <small className="text-danger">{errors.name}</small>
+                      
+                   </p>
+                  <p>
+                      <input value={this.state.email} name="email" type="text" onChange={this.onChange} placeholder="Email"  autoComplete="off" />
+                      <small className="text-danger">{errors.email}</small>
+                  </p>
+                  <p>
+                      <input value={this.state.mobile} name="mobile" type="text" onChange={this.onChange} placeholder="Mobile"  autoComplete="off" />
+                      <small className="text-danger">{errors.mobile}</small>
+                 </p>
+                  <p>
+                      <input value={this.state.password} name="password" type="password" onChange={this.onChange} placeholder="Password"  autoComplete="off" />
+                      <small className="text-danger">{errors.password}</small>
+                </p>
+                  <p>
+                      <input value={this.state.password2} name="password2" type="password" onChange={this.onChange} placeholder="Confirm Password"  autoComplete="off" />
+                      <small className="text-danger">{errors.password2}</small>
+                </p>
+                  <button type="submit"  className="button btn-primary medium">Register Now</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <div>
+<input id="ac-1" name="accordion-1" type="radio" defaultChecked />
+<label htmlFor="ac-1"><span>1</span> SIZE</label>
+<article>
+<div className="row">
+    <div className="col-md-6">
+    <h3>DIMENSION</h3>
+    <select id="select-el" className="combo combo-input" >
+        <option>1 x 2 [+$25.00]</option>
+        <option>1 x 4 [+$50.00]</option>
+        <option>2 x 2 [+$50.00]</option>
+        <option>2 x 3 [+$75.00]</option>
+        <option>1 x 2 [+$25.00]</option>
+        <option>1 x 4 [+$50.00]</option>
+        <option>2 x 2 [+$50.00]</option>
+        <option>2 x 3 [+$75.00]</option>
+    </select>
+    </div>
+    <div className="col-md-6">
+    <h3>DEPTH</h3>
+    <select id="select-el" className="combo combo-input" multiple>
+        <option>1 x 2 [+$25.00]</option>
+        <option>1 x 4 [+$50.00]</option>
+    </select>
+    </div>
+</div>
+</article>
+</div>
+
+<div>
+<input id="ac-2" name="accordion-1" type="radio" />
+<label htmlFor="ac-2"><span>2</span> FINISH</label>
+<article>
+<h3>FABRIC</h3>
+<select id="select-el" className="combo combo-input" multiple>
+    <option>CHOOSE FABRIC</option>
+    <option>DIAMOND KNIT</option>
+    <option>MICROSUEDE</option>
+</select>
+</article>
+</div>
+<div>
+<div>
+<input id="ac-3" name="accordion-1" type="radio" />
+<label htmlFor="ac-3"><span>3</span> PROFILE</label>
+<article>
+<ul className="profile-g">
+<li><img src="assets/img/grid-1.jpg" /><span>SQUARED [+$0.00 ]</span></li>
+<li><img src="assets/img/grid-1.jpg" /><span>SQUARED [+$0.00 ]</span></li>
+</ul>
+</article>
+</div>
+<div>
+<input id="ac-4" name="accordion-1" type="radio" />
+<label htmlFor="ac-4"><span>4</span>HARDWARE</label>
+<article>
+<ul className="profile-g">
+<li><img src="assets/img/hard-1.jpg" /><span>ACOUSTIC PANEL IMPALING CLIP 4 PACK [+$2.00 ]</span></li>
+<li><img src="assets/img/hard-1.jpg" /><span>ACOUSTIC PANEL Z-BAR 2 PACK [+$10.00]</span></li>
+<li><img src="assets/img/hard-1.jpg" /><span>ACOUSTIC PANEL IMPALING CLIP COURNER MOUNT (L/R) [+$6.00]</span></li>
+</ul>
+</article>
+</div>
+</div>
+
+
+1600 PENNSYLVANIA AVE NW
