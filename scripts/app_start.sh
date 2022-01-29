@@ -1,6 +1,6 @@
 
 #!/bin/bash
-cd /home/ec2-user/server/src
+cd /home/ubuntu/overtone
 npm start
 pm2 start npm --name "OVERTONE" -- start
 pm2 startup
