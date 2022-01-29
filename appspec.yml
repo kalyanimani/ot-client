@@ -15,14 +15,3 @@ permissions:
     mode: 644
 
 hooks:
-
-
-  AfterInstall:
-    - location: scripts/after_install.sh
-      timeout: 300
-      runas: root
-
-  ApplicationStart:
-    - location: scripts/app_start.sh
-      timeout: 300
-      runas: root
