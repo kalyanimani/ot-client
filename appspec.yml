@@ -5,13 +5,14 @@ os: ubuntu
 
 files:
   - source: /
-    destination: /home/ubuntu/server
+    destination: /home/ubuntu/overtone
 
 permissions:
-  - object: /
+  - object: /home/ubuntu/overtone
     pattern: "**"
     owner: root
     group: root
+    mode: 644
 
 hooks:
 
